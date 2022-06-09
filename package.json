@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://gitee.com/barrydong/node-todo.git",
   "author": "BarryDong",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "3.0.2"
+  }
 }
