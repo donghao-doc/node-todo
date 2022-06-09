@@ -9,3 +9,8 @@ module.exports.add = async (title) => {
   const result = await db.write(list)
   console.log(result)
 }
+
+module.exports.clear = async () => {
+  const result = await db.write([])
+  console.log(result)
+}

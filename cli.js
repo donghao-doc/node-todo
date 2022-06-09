@@ -19,7 +19,7 @@ program
   .command('clear')
   .description('clear all task')
   .action(() => {
-    console.log('清除成功')
+    api.clear()
   });
 
 program.parse(process.argv);
