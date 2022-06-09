@@ -1,9 +1,12 @@
+#!/usr/bin/env node
+
 const program = require('commander');
 const api = require('./index.js');
+const pkg = require('./package.json');
 
 // 添加参数
 program
-  .option('-d, --debug', 'output extra debugging')
+  .version(pkg.version)
 
 // 添加命令 add
 program
