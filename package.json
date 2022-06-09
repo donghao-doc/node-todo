@@ -7,6 +7,7 @@
   "author": "BarryDong",
   "license": "MIT",
   "dependencies": {
-    "commander": "3.0.2"
+    "commander": "3.0.2",
+    "inquirer": "^8.2.4"
   }
 }
