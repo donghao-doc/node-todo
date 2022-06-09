@@ -1,4 +1,5 @@
 const program = require('commander');
+const api = require('./index.js');
 
 // 添加参数
 program
@@ -10,7 +11,7 @@ program
   .description('add a task')
   .action((...args) => {
     const words = args.slice(0, -1).join(' ')
-    console.log('words:', words)
+    api.add(words)
   });
 
 // 添加命令 clear
