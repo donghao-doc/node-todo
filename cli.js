@@ -23,3 +23,8 @@ program
   });
 
 program.parse(process.argv);
+
+// 当用于只输入 node cli.js 时，展示 todo 列表
+if (process.argv.length === 2) {
+  api.showAll()
+}
