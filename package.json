@@ -1,0 +1,9 @@
+{
+  "name": "node-todo",
+  "version": "0.0.1",
+  "description": "使用 Node.js fs 模块做一个命令行 todo 工具",
+  "main": "index.js",
+  "repository": "https://gitee.com/barrydong/node-todo.git",
+  "author": "BarryDong",
+  "license": "MIT"
+}
